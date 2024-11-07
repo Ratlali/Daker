@@ -1,0 +1,563 @@
+/* Existing CSS code ... */
+
+nav {
+  text-align: center; /* Center navigation */
+  margin: 20px 0; /* Some space around */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline */
+  color: var(--primary-color); /* Color for links */
+  font-weight: bold; /* Bold links */
+  transition: color var(--transition-speed); /* Smooth transition */
+}
+
+nav a:hover {
+  color: var(--secondary-color); /* Change color on hover */
+}
+:root {
+  --primary-color: #4A90E2; /* Soft blue */
+  --secondary-color: #50E3C2; /* Soft green */
+  --accent-color: #D0021B; /* Bold red */
+  --background-color: #F5F7FA; /* Light gray for overall background */
+  --text-color: #333333; /* General text color */
+  --border-radius: 12px; /* Rounded corners */
+  --transition-speed: 0.3s; /* Transition speed for hover effects */
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Font for the entire application */
+  margin: 0; /* Remove default margin */
+  background-color: var(--background-color); /* Set background color */
+}
+
+.container {
+  max-width: 1200px; /* Max width for overall container */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Padding for the container */
+}
+
+header {
+  text-align: center; /* Center text in header */
+  margin-bottom: 20px; /* Space below header */
+}
+
+h1 {
+  color: var(--primary-color); /* Primary color for heading */
+  font-size: 2.5em; /* Font size for heading */
+  font-weight: bold; /* Bold text */
+}
+
+nav {
+  text-align: center; /* Center the navigation */
+  margin-bottom: 20px; /* Space below navigation */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+nav li {
+  display: inline; /* Align items in a row */
+  margin: 0 15px; /* Horizontal margin for list items */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline */
+  color: var(--primary-color); /* Color for links */
+  font-weight: bold; /* Bold links */
+  transition: color var(--transition-speed); /* Smooth transition */
+}
+
+nav a:hover {
+  color: var(--secondary-color); /* Change color on hover */
+}
+
+button {
+  padding: 10px 15px; /* Padding for button */
+  background-color: var(--primary-color); /* Button color */
+  color: #ffffff; /* White text for button */
+  border: none; /* Remove border */
+  border-radius: var(--border-radius); /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color var(--transition-speed), transform var(--transition-speed); /* Smooth transitions */
+}
+
+button:hover {
+  background-color: var(--secondary-color); /* Change button color on hover */
+  transform: scale(1.05); /* Scale effect */
+}
+
+/* Main content area styles */
+main {
+  padding: 20px; /* Main content padding */
+  background-color: #FFFFFF; /* White background for main content */
+  border-radius: var(--border-radius); /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+:root {
+  --primary-color: #4A90E2; /* Soft blue */
+  --secondary-color: #50E3C2; /* Soft green */
+  --accent-color: #D0021B; /* Bold red */
+  --light-background: #FFFFFF; /* Light background for sections */
+  --text-color: #333333; /* General text color */
+  --border-radius: 12px; /* Rounded corners */
+  --transition-speed: 0.3s; /* Transition speed for hover effects */
+}
+
+section {
+  max-width: 400px; /* Limit width of the form */
+  margin: 20px auto; /* Center the section */
+  padding: 40px; /* Padding for the section */
+  background-color: var(--light-background); /* Section background color */
+  border-radius: var(--border-radius); /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+  color: var(--primary-color); /* Heading color */
+  font-size: 2em; /* Font size for heading */
+  margin-bottom: 30px; /* Spacing below the heading */
+  text-align: center; /* Center the heading */
+}
+
+form {
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Stack form elements vertically */
+}
+
+input {
+  margin: 10px 0; /* Space between inputs */
+  padding: 12px; /* Padding for each input */
+  width: 100%; /* Full width */
+  border: 1px solid var(--text-color); /* Border color */
+  border-radius: var(--border-radius); /* Rounded corners for inputs */
+  font-size: 1em; /* Font size for inputs */
+  transition: border-color var(--transition-speed); /* Transition for border focus */
+}
+
+input:focus {
+  border-color: var(--primary-color); /* Change border color on focus */
+}
+
+input.error {
+  border-color: var(--accent-color); /* Change border color for errors */
+}
+
+button {
+  padding: 12px 20px; /* Padding for buttons */
+  background-color: var(--primary-color); /* Button background color */
+  color: var(--light-background); /* Text color for button */
+  border: none; /* No border */
+  border-radius: var(--border-radius); /* Rounded corners for buttons */
+  margin-top: 20px; /* Space above the button */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color var(--transition-speed), transform var(--transition-speed); /* Transition effects */
+}
+
+button:hover {
+  background-color: var(--secondary-color); /* Change color on hover */
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+.error-message {
+  color: var(--accent-color); /* Error message color */
+  font-size: 0.9em; /* Font size for error messages */
+  margin: 5px 0; /* Space for error messages */
+  font-weight: bold; /* Bold for emphasis */
+  text-align: left; /* Align error message text to the left */
+}
+
+.myBtn {
+  text-align: center; /* Center buttons in this section */
+  margin-top: 20px; /* Space above */
+}
+
+.btn {
+  background: none; /* No background for toggle button */
+  color: var(--primary-color); /* Color for toggle button */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor */
+  font-weight: bold; /* Bold text */
+  transition: color var(--transition-speed); /* Transition for hover */
+}
+
+.btn:hover {
+  color: var(--secondary-color); /* Change color on hover */
+}
+:root {
+  --primary-color: #4A90E2; /* Soft blue */
+  --secondary-color: #50E3C2; /* Soft green */
+  --accent-color: #D0021B; /* Bold red */
+  --background-color: #F5F7FA; /* Light gray for overall background */
+  --light-background: #FFFFFF; /* Light background for sections and tables */
+  --text-color: #333333; /* General text color */
+  --border-radius: 12px; /* Rounded corners */
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  --header-font-size: 2em; /* Header font size */
+}
+
+section {
+  max-width: 1200px; /* Max width for dashboard section */
+  margin: 20px auto; /* Center the dashboard */
+  padding: 20px; /* Padding for section */
+  background-color: var(--light-background); /* Background color */
+  border-radius: var(--border-radius); /* Rounded corners */
+  box-shadow: var(--shadow); /* Subtle shadow */
+}
+
+h2 {
+  color: var(--primary-color); /* Heading color */
+  font-size: var(--header-font-size); /* Header font size */
+  margin-bottom: 20px; /* Spacing below heading */
+  text-align: center; /* Center the heading */
+}
+
+h3 {
+  color: var(--text-color); /* Subheading color */
+  font-size: 1.5em; /* Font size for subheadings */
+  margin: 15px 0; /* Spacing above and below subheadings */
+}
+
+table {
+  width: 100%; /* Full width for tables */
+  border-collapse: collapse; /* Remove border spacing */
+  margin-bottom: 40px; /* Space below the table */
+}
+
+th, td {
+  border: 1px solid #dddddd; /* Light gray border */
+  text-align: left; /* Left align text */
+  padding: 12px; /* Padding for table cells */
+}
+
+th {
+  background-color: var(--primary-color); /* Header background color */
+  color: white; /* Header text color */
+  font-weight: bold; /* Bold text for headers */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light background for even rows */
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Hover effect for rows */
+}
+
+td {
+  color: var(--text-color); /* General text color for cells */
+}
+
+td span.low-stock {
+  color: var(--accent-color); /* Red color for low stock */
+  font-weight: bold; /* Bold text */
+}
+
+td span.available {
+  color: var(--secondary-color); /* Green color for available stock */
+  font-weight: bold; /* Bold text */
+}
+
+/* Responsive Chart Styles */
+.recharts-responsive-container {
+  margin: 20px 0; /* Space for the chart */
+}
+:root {
+  --primary-color: #4A90E2; /* Soft blue */
+  --secondary-color: #50E3C2; /* Soft green */
+  --accent-color: #D0021B; /* Bold red */
+  --light-background: #FFFFFF; /* Background color for sections and tables */
+  --background-color: #F5F7FA; /* General background color */
+  --text-color: #333333; /* General text color */
+  --border-radius: 12px; /* Rounded corners */
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  --header-font-size: 2em; /* Header font size */
+}
+
+section {
+  max-width: 1200px; /* Maximum width for the product list */
+  margin: 20px auto; /* Center the section */
+  padding: 20px; /* Padding around the section */
+  background-color: var(--light-background); /* Background color */
+  border-radius: var(--border-radius); /* Rounded corners */
+  box-shadow: var(--shadow); /* Shadow for depth */
+}
+
+h2 {
+  color: var(--primary-color); /* Color for main heading */
+  font-size: var(--header-font-size); /* Font size for main heading */
+  text-align: center; /* Center align heading */
+}
+
+form {
+  margin-bottom: 20px; /* Space below the form */
+  border: 1px solid #ddd; /* Light border around the form */
+  border-radius: var(--border-radius); /* Rounded corners for the form */
+  padding: 20px; /* Padding inside the form */
+  background-color: #f8f8f8; /* Light background for the form */
+}
+
+input {
+  width: calc(100% - 20px); /* Full width inputs with padding */
+  padding: 10px; /* Padding inside inputs */
+  margin: 10px 0; /* Margin between inputs */
+  border: 1px solid #ccc; /* Light border for inputs */
+  border-radius: var(--border-radius); /* Rounded corners for inputs */
+  transition: border-color 0.3s; /* Transition for border color */
+}
+
+input:focus {
+  border-color: var(--primary-color); /* Highlight border on focus */
+}
+
+button {
+  background-color: var(--primary-color); /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px 15px; /* Padding for buttons */
+  border: none; /* No border */
+  border-radius: var(--border-radius); /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-right: 10px; /* Space between buttons */
+  transition: background-color 0.3s; /* Transition effect for hover */
+}
+
+button:hover {
+  background-color: var(--secondary-color); /* Change background color on hover */
+}
+
+table {
+  width: 100%; /* Full width for the table */
+  border-collapse: collapse; /* Collapse borders */
+  margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+  border: 1px solid #dddddd; /* Light gray border for cells */
+  text-align: left; /* Left alignment for text */
+  padding: 12px; /* Padding for table cells */
+}
+
+th {
+  background-color: var(--primary-color); /* Header background color */
+  color: white; /* Header text color */
+  font-weight: bold; /* Bold text for headers */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light background for even rows */
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Hover effect for rows */
+}
+
+td {
+  color: var(--text-color); /* General text color for table cells */
+}
+:root {
+  --primary-color: #4A90E2; /* Soft blue for buttons and highlights */
+  --secondary-color: #50E3C2; /* Soft green for success messages */
+  --error-color: #D0021B; /* Red for error messages */
+  --light-background: #FFFFFF; /* Background color for sections */
+  --background-color: #F5F7FA; /* General background color */
+  --text-color: #333333; /* General text color */
+  --border-radius: 8px; /* Rounded corners */
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for depth */
+  --header-font-size: 2em; /* Header font size */
+}
+
+section {
+  max-width: 600px; /* Max width for the component */
+  margin: 20px auto; /* Center the section */
+  padding: 20px; /* Padding around the section */
+  background-color: var(--light-background); /* Background color */
+  border-radius: var(--border-radius); /* Rounded corners */
+  box-shadow: var(--shadow); /* Shadow for depth */
+}
+
+h2 {
+  color: var(--primary-color); /* Header color */
+  font-size: var(--header-font-size); /* Font size for header */
+  text-align: center; /* Center alignment for header */
+  margin-bottom: 20px; /* Space below the header */
+}
+
+form {
+  display: flex; /* Flexbox for form layout */
+  flex-direction: column; /* Column layout for inputs */
+}
+
+button {
+  background-color: var(--primary-color); /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px 15px; /* Padding for button */
+  border: none; /* No border */
+  border-radius: var(--border-radius); /* Rounded corners for button */
+  cursor: pointer; /* Change cursor to pointer */
+  margin-top: 10px; /* Space above the button */
+  transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+button:hover {
+  background-color: var(--secondary-color); /* Change background on hover */
+}
+
+div {
+  margin-bottom: 15px; /* Space below input divs */
+}
+
+input {
+  width: 100%; /* Full width for input fields */
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ccc; /* Light border for inputs */
+  border-radius: var(--border-radius); /* Rounded corners for inputs */
+  transition: border-color 0.3s; /* Transition for border color */
+}
+
+input:focus {
+  border-color: var(--primary-color); /* Highlight border on focus */
+}
+
+.error-message {
+  color: var(--error-color); /* Red color for error messages */
+  margin-top: 5px; /* Space above error messages */
+  font-size: 0.9em; /* Smaller font size for error messages */
+}
+:root {
+  --primary-color: #4A90E2; /* Soft blue for headers */
+  --low-stock-color: #D0021B; /* Red for low stock */
+  --available-color: #50E3C2; /* Green for available stock */
+  --light-background: #FFFFFF; /* Light background for the section */
+  --background-color: #F5F7FA; /* General background color */
+  --text-color: #333333; /* General text color */
+  --border-radius: 8px; /* Rounded corners */
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for depth */
+  --header-font-size: 1.5em; /* Font size for table headers */
+}
+
+section {
+  max-width: 800px; /* Max width for the stock list */
+  margin: 20px auto; /* Center the section */
+  padding: 20px; /* Padding around the section */
+  background-color: var(--light-background); /* Background color */
+  border-radius: var(--border-radius); /* Rounded corners */
+  box-shadow: var(--shadow); /* Shadow for depth */
+}
+
+h2 {
+  color: var(--primary-color); /* Color for the main heading */
+  font-size: 2em; /* Font size for the main heading */
+  text-align: center; /* Center align heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+table {
+  width: 100%; /* Full width for the table */
+  border-collapse: collapse; /* Collapse borders */
+  margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+  border: 1px solid #dddddd; /* Light gray borders for cells */
+  text-align: left; /* Left alignment for text */
+  padding: 12px; /* Padding for table cells */
+}
+
+th {
+  background-color: var(--primary-color); /* Background color for headers */
+  color: white; /* Text color for headers */
+  font-weight: bold; /* Bold text for headers */
+}
+
+td {
+  color: var(--text-color); /* General text color for table cells */
+}
+
+.low-stock {
+  color: var(--low-stock-color); /* Color for low stock warning */
+  font-weight: bold; /* Bold font for emphasis */
+}
+
+.available {
+  color: var(--available-color); /* Color for available stock */
+  font-weight: bold; /* Bold font for emphasis */
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Light background for even rows */
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Hover effect for rows */
+}
+:root {
+  --primary-color: #4A90E2; /* Primary blue for headers and buttons */
+  --error-color: #D0021B; /* Red for error messages */
+  --light-background: #FFFFFF; /* Light background for section */
+  --background-color: #F5F7FA; /* General background color */
+  --text-color: #333333; /* General text color */
+  --border-radius: 8px; /* Border radius for rounded corners */
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for depth */
+}
+
+section {
+  max-width: 500px; /* Max width for user management form */
+  margin: 20px auto; /* Center the section */
+  padding: 20px; /* Padding around the section */
+  background-color: var(--light-background); /* Background color */
+  border-radius: var(--border-radius); /* Rounded corners */
+  box-shadow: var(--shadow); /* Shadow for depth */
+}
+
+h2 {
+  color: var(--primary-color); /* Color for the main heading */
+  font-size: 1.8em; /* Font size for the main heading */
+  text-align: center; /* Center align heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+form {
+  display: flex; /* Flexbox for form layout */
+  flex-direction: column; /* Column layout for inputs */
+}
+
+input {
+  padding: 10px; /* Padding inside input fields */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: var(--border-radius); /* Rounded corners for inputs */
+  margin-bottom: 15px; /* Space below each input */
+  font-size: 1em; /* Font size for inputs */
+}
+
+input:focus {
+  border-color: var(--primary-color); /* Highlight border on focus */
+}
+
+.error-message {
+  color: var(--error-color); /* Red color for error messages */
+  font-size: 0.85em; /* Smaller font size for error messages */
+  margin-bottom: 10px; /* Space below error messages */
+}
+
+button {
+  background-color: var(--primary-color); /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px; /* Padding inside button */
+  border: none; /* No border */
+  border-radius: var(--border-radius); /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor for button */
+  transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+button:hover {
+  background-color: #357ABD; /* Darker blue for hover effect */
+}
